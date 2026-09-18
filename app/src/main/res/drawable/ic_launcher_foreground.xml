@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Chat bubble background shape in safe zone -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,30 C27.37,30 22,35.37 22,42 L22,64 C22,70.63 27.37,76 34,76 L40,76 L40,84 L50,76 L74,76 C80.63,76 86,70.63 86,64 L86,42 C86,35.37 80.63,30 74,30 Z" />
+    <!-- Pulse wave cutout inside the bubble -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M35,53 L43,53 L47,43 L53,63 L58,48 L62,56 L65,53 L73,53 C74.1,53 75,53.9 75,55 C75,56.1 74.1,57 73,57 L67,57 L63.5,50 L58,66 L52.5,39 L46.5,57 L35,57 C33.9,57 33,56.1 33,55 C33,53.9 33.9,53 35,53 Z" />
+    <!-- Dynamic audio dot / notification badge -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M72,37m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+</vector>
